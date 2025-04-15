@@ -25,3 +25,58 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.nav {
+  background: #322E41;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  color: #fff;
+  display: flex;
+
+}
+
+.bars {
+  display: none;
+  
+
+}
+
+.nav__link {
+  padding-bottom: 21px;  
+  border-bottom: 2px solid transparent;
+  transition: 500ms;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.bars__img {
+  width: 20px;
+  height: 20px;
+}
+
+.bars {
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.nav__link:hover {
+  color: #FFE600;
+  padding-bottom: 21px;  
+  border-bottom: 2px solid #fff;
+}
+
+.nav__img {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.nav__ul {
+  padding-top: 23px;
+}
