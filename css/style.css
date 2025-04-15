@@ -25,3 +25,34 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+.express{
+  background: #EBEBEB;
+}
+.express__desc{
+  font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+padding: 15px;
+text-transform: uppercase;
+color: #fff;
+position: absolute;
+bottom: 0;
+}
+.express__wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+
+}
+.express__card{
+position: relative;
+margin-bottom: 50px;
+margin-top: 40px;
+max-width: 350px;
+width: 100%;
+}
+.express__img{
+  height: 502px;
+  object-fit: cover;
+}
