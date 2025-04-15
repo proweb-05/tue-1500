@@ -25,3 +25,39 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.ads {
+  position: relative;
+  /* width: 100%; */
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  background-image: url(../img/ads.jpg);
+  min-height: 557px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .ads img {
+  width: 100%;
+  height: auto;
+} */
+
+.nike__text {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  top: 5%;
+  left: 15%;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #BABABA;
+  width: 400px;
+  height: 154px;
+
+}
+
+.nike__text h1 {
+  font-size: 40px;
+}
+
